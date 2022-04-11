@@ -91,7 +91,6 @@
 				07D70DC5F064A4495B414850 /* Pods-sandbox-sandboxTests.debug.xcconfig */,
 				4BDA4A5518B8A045C2E0DC74 /* Pods-sandbox-sandboxTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJMA8MENWH;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = sandbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJMA8MENWH;
 				INFOPLIST_FILE = sandbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
