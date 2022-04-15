@@ -7,11 +7,13 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "reset-megapowered": "yarn remove react-native-megapowered & yarn add https://github.com/thexdd/react-native-megapowered & cd ios & pod install & cd .."
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.68.0"
+    "react-native": "0.68.0",
+    "react-native-megapowered": "https://github.com/thexdd/react-native-megapowered"
   },
   "devDependencies": {
     "@babel/core": "^7.17.2",

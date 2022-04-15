@@ -5667,6 +5667,10 @@ react-native-gradle-plugin@^0.0.5:
   dependencies:
     react-native-codegen "*"
 
+"react-native-megapowered@https://github.com/thexdd/react-native-megapowered":
+  version "1.0.0"
+  resolved "https://github.com/thexdd/react-native-megapowered#47060d04457c073ca081e4d002482415f96673a2"
+
 react-native@0.68.0:
   version "0.68.0"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.68.0.tgz#00204818c7fa5a9802ee73f3905a6d9b1c945a31"

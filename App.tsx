@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import React from 'react';
-import Megapowered from 'react-native-megapowered';
+import Megapowered from './node_modules/react-native-megapowered'
 
 import {
   Button,
@@ -11,10 +11,14 @@ import {
 
 const App: FC = () => {
 
-  const megapowered = new Megapowered();
+  const testAsync = async(): Promise<void> => {
+    await Megapowered.construct('testPath')
+    let result = await Megapowered.isPlaying()
+    console.log('RESULT: '+result)
+  }
 
   const onPlayPressed = (): void => {
-    megapowered.play();
+    testAsync()
   }
 
   return (
