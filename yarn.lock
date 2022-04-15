@@ -5661,7 +5661,7 @@ react-native-gradle-plugin@^0.0.5:
 
 "react-native-megapowered@https://github.com/thexdd/react-native-megapowered":
   version "1.0.0"
-  resolved "https://github.com/thexdd/react-native-megapowered#47060d04457c073ca081e4d002482415f96673a2"
+  resolved "https://github.com/thexdd/react-native-megapowered#1623418b04ec018a767a8445b655910c4a254d0b"
 
 react-native@0.68.0:
   version "0.68.0"

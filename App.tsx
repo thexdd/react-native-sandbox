@@ -8,12 +8,12 @@ import {
   Text,
 } from 'react-native';
 
+const megapowered = new Megapowered('testPath')
 
 const App: FC = () => {
 
   const testAsync = async(): Promise<void> => {
-    await Megapowered.construct('testPath')
-    let result = await Megapowered.isPlaying()
+    let result = await megapowered.isPlaying()
     console.log('RESULT: '+result)
   }
 
